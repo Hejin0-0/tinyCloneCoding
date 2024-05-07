@@ -35,7 +35,8 @@ CUSTOM_APPS = ["users.apps.UsersConfig",
                "common.apps.CommonConfig",
                'experiences.apps.ExperiencesConfig',
                'categories.apps.CategoriesConfig',
-               'reviews.apps.ReviewsConfig',]
+               'reviews.apps.ReviewsConfig',
+               'wishlists.apps.WishlistsConfig',]
 
 SYSTEM_APPS = [
     "django.contrib.admin",
